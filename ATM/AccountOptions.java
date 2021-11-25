@@ -17,7 +17,7 @@ public class AccountOptions {
 		int pinNumber = 0;
 		while (!end) {
 			try {
-				System.out.print("\nEnter your customer number: ");
+				System.out.print("\nEnter your customer Account number: ");
 				customerAccountNumber = menuInput.nextInt();
 				System.out.print("\nEnter your PIN number: ");
 				pinNumber = menuInput.nextInt();
@@ -32,7 +32,7 @@ public class AccountOptions {
 					}
 				}
 				if (!end) {
-					System.out.println("\nWrong Customer Number or Pin Number");
+					System.out.println("\nWrong Customer Account Number or Pin Number");
 				}
 			} catch (InputMismatchException e) {
 				System.out.println("\nInvalid Character(s). Only Numbers.");
